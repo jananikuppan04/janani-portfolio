@@ -1,4 +1,4 @@
-import { BrainCircuit, ShieldCheck, Trophy } from "lucide-react";
+import { BrainCircuit, GraduationCap, ShieldCheck, Trophy } from "lucide-react";
 import SectionHeading from "../components/common/SectionHeading";
 
 function About() {
@@ -19,8 +19,18 @@ function About() {
           </p>
           <div><ShieldCheck size={20} />Proven under national hackathon pressure: building deployable, benchmark-tested software.</div>
         </article>
-        <article className="about-stat panel reveal"><strong>8.85</strong><span>Current B.E. CGPA</span><small>Computer Science & Engineering</small></article>
-        <article className="about-stat panel reveal"><Trophy size={25} /><strong>6+</strong><span>Hackathon Honors</span><small>SIH '25 Winner · MIT Finalist</small></article>
+        <article className="about-stat panel reveal">
+          <GraduationCap size={25} />
+          <strong>8.85</strong>
+          <span>Current B.E. CGPA</span>
+          <small>Computer Science & Engineering</small>
+        </article>
+        <article className="about-stat panel reveal">
+          <Trophy size={25} />
+          <strong>6+</strong>
+          <span>Hackathon Honors</span>
+          <small>SIH '25 Winner · MIT Finalist</small>
+        </article>
         <article className="about-focus panel reveal">
           <div><BrainCircuit size={19} />Current focus</div>
           <p><span>AI/ML & Vision</span><span>RAG Assistants</span><span>TenderLens AI</span><span>Full-Stack Web</span><span>Java Backends</span></p>
