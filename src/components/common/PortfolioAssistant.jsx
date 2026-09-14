@@ -11,13 +11,19 @@ const suggestions = [
 function answerQuestion(question) {
   const text = question.toLowerCase();
   if (text.includes("available") || text.includes("intern")) return person.availability;
+  if (text.includes("achievement") || text.includes("hackathon") || text.includes("win") || text.includes("award") || text.includes("sih")) {
+    return "Janani is an SIH 2025 Winner (Smart India Hackathon), 2nd Place Winner at HackHustle National Hackathon, 3rd Place at SA Hackathon 2026, MIT Hackathon Finalist, Quantum Hackathon PPT Qualifier, and TNWISE State Qualifier!";
+  }
+  if (text.includes("tenderlens") || text.includes("vision") || text.includes("project")) {
+    return "Janani’s featured projects include TenderLens AI (multimodal RFP tender intelligence & compliance platform), ClientPilot AI, AgriConnect AI (computer-vision leaf disease detection), and a Java Spring Boot Task System.";
+  }
   if (text.includes("skill") || text.includes("technology")) {
-    return "Janani works with React, JavaScript, Java, Spring Boot, Python, REST APIs, PostgreSQL, RAG systems and LLM applications.";
+    return "Janani specializes in Python, Computer Vision, OpenCV, RAG systems, LLMs, React, Node.js, Java, Spring Boot, and PostgreSQL.";
   }
   if (text.includes("build") || text.includes("service")) {
-    return "Janani builds responsive full-stack applications, Java backends, REST APIs, RAG assistants, AI chatbots and focused MVPs.";
+    return "Janani builds AI/ML and computer-vision prototypes, RAG assistants, responsive full-stack applications, and robust Java/Spring Boot backends.";
   }
-  return "Ask me about Janani’s skills, projects, services, achievements or availability.";
+  return "Ask me about Janani’s skills, projects (like TenderLens AI), achievements (like SIH 2025), or availability.";
 }
 
 function PortfolioAssistant() {

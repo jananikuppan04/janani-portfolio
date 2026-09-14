@@ -1,10 +1,10 @@
 export const person = {
   name: "Janani Kuppan",
-  title: "AI & Full-Stack Developer",
+  title: "AI/ML & Full-Stack Developer | SIH 2025 Winner",
   email: "jananikuppan04@gmail.com",
   location: "Kanchipuram, Tamil Nadu, India",
   linkedin: "https://www.linkedin.com/in/jananikuppan",
-  github: "https://github.com/jananikuppan04-sys",
+  github: "https://github.com/jananikuppan04",
   resume: "/resume/janani-kuppan-resume.pdf",
   availability:
     "Open to internships, entry-level roles, freelance projects, and startup collaborations.",
@@ -38,6 +38,14 @@ export const services = [
     icon: "layers",
   },
   {
+    title: "Computer Vision & AI/ML Systems",
+    description:
+      "Vision models, real-time image analysis, similarity scoring, and smart classification workflows.",
+    audience: "Hackathon prototypes, industrial automation and smart surveillance",
+    deliverables: "Model integration, real-time processing pipelines, and intuitive UI dashboards",
+    icon: "zap",
+  },
+  {
     title: "Java & Spring Boot Backend",
     description:
       "Structured REST APIs with database persistence, validation, error handling and maintainable application logic.",
@@ -45,25 +53,42 @@ export const services = [
     deliverables: "API design, database models, validation, documentation and deployment",
     icon: "server",
   },
-  {
-    title: "MVP Development",
-    description:
-      "Focused product prototypes that validate the core workflow before time is spent on secondary features.",
-    audience: "Founders, hackathon teams and early-stage product ideas",
-    deliverables: "Scope, UI flow, working MVP and feedback-ready release",
-    icon: "zap",
-  },
 ];
 
 export const projects = [
   {
-    id: "clientpilot",
+    id: "tenderlens",
     number: "01",
+    title: "TenderLens AI",
+    image: "/images/projects/tenderlens.jpg",
+    category: "AI/ML · RAG · Computer Vision · Full Stack",
+    status: "Active build",
+    accent: "violet",
+    summary:
+      "An intelligent tender analysis and bid evaluation platform combining RFP document intelligence, multimodal RAG extraction, and automated compliance risk scoring.",
+    problem:
+      "Enterprises and vendors spend hundreds of hours manually parsing massive government and commercial RFPs to assess technical compliance and eligibility.",
+    solution:
+      "An automated AI pipeline leveraging multimodal RAG, semantic document segmentation, and compliance checklists to deliver instant bid readiness scores.",
+    features: [
+      "Multimodal RFP & tender document parsing with RAG",
+      "Automated compliance checklist & risk assessment matrix",
+      "Semantic clause similarity scoring & eligibility matching",
+      "Interactive AI tender assistant with exact source citations",
+    ],
+    stack: ["Python", "React", "RAG Systems", "NLP", "FastAPI / Node.js", "PostgreSQL"],
+    role:
+      "System architecture, RAG pipeline, compliance scoring logic, and full-stack interface",
+  },
+
+  {
+    id: "clientpilot",
+    number: "02",
     title: "ClientPilot AI",
-    image: "janani-portfolio-complete/public/images/projects/clientpilot.png",
+    image: "/images/projects/clientpilot.png",
     category: "AI SaaS · Full Stack · RAG",
     status: "In development",
-    accent: "violet",
+    accent: "blue",
     summary:
       "An AI-powered business platform combining lead management, appointments, a knowledge base, and a grounded customer assistant.",
     problem:
@@ -83,34 +108,34 @@ export const projects = [
 
   {
     id: "agriconnect",
-    number: "02",
+    number: "03",
     title: "AgriConnect AI",
-    image: "janani-portfolio-complete/public/images/projects/agriconnect.png",
-    category: "Social Impact · AI · Full Stack",
+    image: "/images/projects/agriconnect.png",
+    category: "Social Impact · AI/ML & Computer Vision · Full Stack",
     status: "In development",
     accent: "green",
     summary:
-      "A farm-intelligence platform designed to bring crop health, weather, market information and agricultural guidance into one accessible experience.",
+      "A farm-intelligence platform designed to bring crop health, leaf-disease computer vision detection, weather, and agricultural guidance into one accessible experience.",
     problem:
       "Farm decisions depend on fragmented information about crop condition, weather, pricing and timely interventions.",
     solution:
-      "A unified dashboard that makes farm signals easier to understand and act on.",
+      "A unified dashboard that makes farm signals easier to understand and act on with vision-based disease diagnostics.",
     features: [
       "Crop-health overview and farm dashboard",
+      "Leaf-image computer vision disease detection flow",
       "Weather and market-price context",
       "Crop recommendation workflow",
-      "Leaf-image disease detection flow",
     ],
-    stack: ["React", "Python", "Node.js", "AI/ML", "REST APIs"],
+    stack: ["React", "Python", "Node.js", "Computer Vision", "REST APIs"],
     role:
-      "Product design, full-stack development and AI workflow exploration",
+      "Product design, full-stack development and computer vision workflow exploration",
   },
 
   {
     id: "taskflow",
-    number: "03",
+    number: "04",
     title: "Task Management System",
-    image: "janani-portfolio-complete/public/images/projects/task-management.png",
+    image: "/images/projects/task-management.png",
     category: "Java · Spring Boot · REST API",
     status: "Backend build",
     accent: "blue",
@@ -134,19 +159,19 @@ export const projects = [
 
 export const skillGroups = [
   {
-    name: "AI & Applied Intelligence",
-    level: "Project experience / learning",
-    skills: ["Python", "NLP", "RAG Systems", "LLM Applications", "Similarity Scoring"],
+    name: "AI/ML, Vision & Applied Intelligence",
+    level: "Core project experience",
+    skills: ["Python", "Computer Vision", "OpenCV", "NLP", "RAG Systems", "LLM Applications", "Similarity Scoring"],
   },
   {
-    name: "Frontend",
+    name: "Frontend Development",
     level: "Project experience",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Responsive Design"],
+    skills: ["React", "JavaScript", "HTML5", "CSS3", "Responsive UI/UX", "Tailwind / Vanilla CSS"],
   },
   {
-    name: "Backend & APIs",
-    level: "Project experience / learning",
-    skills: ["Node.js", "REST APIs", "Java", "Spring Boot", "Python"],
+    name: "Backend & System APIs",
+    level: "Project experience",
+    skills: ["Node.js", "FastAPI", "REST APIs", "Java", "Spring Boot", "Python"],
   },
   {
     name: "Data, Tools & Deployment",
@@ -155,8 +180,8 @@ export const skillGroups = [
   },
   {
     name: "Engineering Foundations",
-    level: "Core",
-    skills: ["OOP", "Problem Solving", "System Design", "Team Leadership", "Communication"],
+    level: "Core strengths",
+    skills: ["OOP", "Data Structures", "System Design", "Hackathon Prototyping", "Team Leadership"],
   },
 ];
 
@@ -177,23 +202,39 @@ export const education = [
 
 export const achievements = [
   {
-    title: "Smart India Hackathon 2025 — Winner",
-    detail: "Built an AI surveillance system for extreme weather conditions.",
+    title: "Smart India Hackathon (SIH) 2025 — Winner",
+    detail:
+      "Built an AI surveillance and computer-vision system for extreme weather conditions.",
     context: "Ministry of Education · IIT Roorkee, Delhi",
   },
   {
+    title: "HackHustle National Hackathon — 2nd Place",
+    detail:
+      "Built Trust Vault, a decentralized escrow system for secure, transparent transactions.",
+    context: "24-hour National Hackathon",
+  },
+  {
     title: "SA Hackathon 2026 — 3rd Place",
-    detail: "Built HexaPathAI, an AI-based skill-gap analysis system.",
-    context: "36-hour hackathon",
+    detail:
+      "Built HexaPathAI, an AI-based skill-gap analysis and dynamic learning roadmap platform.",
+    context: "36-hour National Hackathon",
   },
   {
-    title: "HackHustle 2.0 — Runner-up",
-    detail: "Built Trust Vault, a decentralised escrow system.",
-    context: "24-hour hackathon",
+    title: "MIT Hackathon — Finalist",
+    detail:
+      "Recognized as a finalist for designing an innovative real-world AI/ML prototype under rigorous judging criteria.",
+    context: "MIT Hackathon",
   },
   {
-    title: "TNWISE Hackathon 2025 — Second Round",
-    detail: "Developed Smart Wheel, a real-time assistive mobility prototype.",
+    title: "Quantum Hackathon — PPT Round Qualifier",
+    detail:
+      "Selected as qualifier in the technical presentation round for quantum computing conceptualization & architecture.",
+    context: "National Quantum Hackathon",
+  },
+  {
+    title: "TNWISE Hackathon 2025 — State Round Qualifier",
+    detail:
+      "Developed Smart Wheel, a real-time assistive mobility prototype empowering accessibility.",
     context: "Government of Tamil Nadu",
   },
 ];

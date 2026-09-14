@@ -13,18 +13,17 @@ function About() {
         <article className="about-story panel reveal">
           <span className="panel-label">My direction</span>
           <p>
-            I’m a Computer Science Engineering undergraduate building practical
-            products across full-stack development and applied AI. My work spans
-            responsive React interfaces, Node.js APIs, Python intelligence and
-            Java backend development.
+            I’m a Computer Science Engineering undergraduate and Smart India Hackathon (SIH 2025) Winner.
+            I engineer production-focused AI/ML, computer-vision, RAG, and full-stack solutions—delivering
+            real-world prototypes like TenderLens AI, HexaPathAI, and assistive mobility systems.
           </p>
-          <div><ShieldCheck size={20} />I value honest product claims and software that can be tested and deployed.</div>
+          <div><ShieldCheck size={20} />Proven under national hackathon pressure: building deployable, benchmark-tested software.</div>
         </article>
         <article className="about-stat panel reveal"><strong>8.85</strong><span>Current B.E. CGPA</span><small>Computer Science & Engineering</small></article>
-        <article className="about-stat panel reveal"><Trophy size={25} /><strong>SIH ’25</strong><span>Winner</span><small>National hackathon</small></article>
+        <article className="about-stat panel reveal"><Trophy size={25} /><strong>6+</strong><span>Hackathon Honors</span><small>SIH '25 Winner · MIT Finalist</small></article>
         <article className="about-focus panel reveal">
           <div><BrainCircuit size={19} />Current focus</div>
-          <p><span>AI product engineering</span><span>RAG assistants</span><span>Java backends</span><span>Deployable MVPs</span></p>
+          <p><span>AI/ML & Vision</span><span>RAG Assistants</span><span>TenderLens AI</span><span>Full-Stack Web</span><span>Java Backends</span></p>
         </article>
       </div>
     </section>

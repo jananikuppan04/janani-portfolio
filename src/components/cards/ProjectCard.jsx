@@ -1,6 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 
 const projectImages = {
+  tenderlens: "/images/projects/tenderlens.jpg",
   clientpilot: "/images/projects/clientpilot.png",
   agriconnect: "/images/projects/agriconnect.png",
   taskflow: "/images/projects/task-management.png",
@@ -12,7 +13,7 @@ function ProjectCard({ project }) {
       <div className="project-visual">
         <img
           className="project-image"
-          src={projectImages[project.id]}
+          src={projectImages[project.id] || project.image}
           alt={`${project.title} project interface`}
           loading="lazy"
         />

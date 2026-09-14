@@ -33,7 +33,7 @@ function Contact() {
           <div className="contact-details">
             <a href={`mailto:${person.email}`}><Mail size={18} /><span><small>Email</small>{person.email}</span></a>
             <a href={person.linkedin} target="_blank" rel="noreferrer"><Linkedin size={18} /><span><small>LinkedIn</small>/in/jananikuppan</span></a>
-            <a href={person.github} target="_blank" rel="noreferrer"><Github size={18} /><span><small>GitHub</small>/jananikuppan04-sys</span></a>
+            <a href={person.github} target="_blank" rel="noreferrer"><Github size={18} /><span><small>GitHub</small>/jananikuppan04</span></a>
             <div><MapPin size={18} /><span><small>Location</small>{person.location}</span></div>
           </div>
           <div className="contact-availability"><i />{person.availability}</div>

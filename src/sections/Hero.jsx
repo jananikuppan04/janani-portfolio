@@ -19,12 +19,12 @@ function Hero() {
     <section className="hero" id="home">
       <div className="hero-glow" />
       <div className="hero-copy animate-fade-up">
-        <div className="availability"><i />Available for internships and freelance projects</div>
+        <div className="availability"><i />SIH 2025 Winner · Available for internships & collaborations</div>
         <h1>Hi, I’m <em>Janani Kuppan.</em></h1>
-        <h2>AI & Full-Stack Developer</h2>
+        <h2>AI/ML & Full-Stack Developer</h2>
         <p>
-          I design and build responsive web applications, reliable backend
-          systems, and AI chatbots that solve practical business problems.
+          SIH 2025 Winner building AI/ML models, computer-vision systems, RAG assistants,
+          and full-stack web applications that solve real-world problems.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href="#projects">Explore My Work <ArrowRight size={17} /></a>
@@ -34,7 +34,7 @@ function Hero() {
           <a href={person.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin /></a>
           <a href={person.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github /></a>
           <a href={`mailto:${person.email}`} aria-label="Email"><Mail /></a>
-          <a className="resume-link" href={person.resume} download>Download résumé</a>
+          <a className="resume-link" href={person.resume} download>Download Resume</a>
         </div>
       </div>
 
