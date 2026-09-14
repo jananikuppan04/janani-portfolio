@@ -33,7 +33,7 @@ function About() {
         </article>
         <article className="about-focus panel reveal">
           <div><BrainCircuit size={19} />Current focus</div>
-          <p><span>AI/ML & Vision</span><span>RAG Assistants</span><span>TenderLens AI</span><span>Full-Stack Web</span><span>Java Backends</span></p>
+          <p><span>AI/ML & Vision</span><span>IoT & Hardware Sensors</span><span>RAG Assistants</span><span>TenderLens AI</span><span>SwachhNet</span><span>Full-Stack Web</span></p>
         </article>
       </div>
     </section>

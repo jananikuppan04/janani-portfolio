@@ -79,11 +79,84 @@ export const projects = [
     stack: ["Python", "React", "RAG Systems", "NLP", "FastAPI / Node.js", "PostgreSQL"],
     role:
       "System architecture, RAG pipeline, compliance scoring logic, and full-stack interface",
+    live: "https://tenderlens-ai.vercel.app/",
+    github: "https://github.com/jananikuppan04/tenderlens-ai",
+  },
+
+  {
+    id: "swachhnet",
+    number: "02",
+    title: "SwachhNet — Smart Waste Network",
+    image: "/images/projects/swachhnet.jpg",
+    category: "IoT & Hardware · Embedded Telemetry · Full Stack",
+    status: "Production ready",
+    accent: "green",
+    summary:
+      "A next-generation smart waste ecosystem connecting hardware ultrasonic sensors, microcontroller telemetry, and real-time administrative dispatch to modernize municipal sanitation.",
+    problem:
+      "Municipal waste management suffers from static, blind collection schedules—leading to overflowing bins, fuel inefficiency, and delayed sanitation response.",
+    solution:
+      "An end-to-end IoT architecture where embedded ultrasonic hardware sensors stream live fill metrics, triggering automated vehicle route dispatch and ward-level oversight.",
+    features: [
+      "Hardware ultrasonic sensor integration for real-time fill-level telemetry",
+      "Microcontroller sensor node interfacing & threshold breach detection",
+      "Interactive geospatial city map with Leaflet for live bin health tracking",
+      "Automated truck route dispatch via email API when capacity exceeds threshold",
+      "Role-based consoles: Officer analytics, Admin control, and mobile Worker portals",
+    ],
+    stack: [
+      "IoT & Hardware Sensors",
+      "Ultrasonic Sensors",
+      "Firebase Realtime DB",
+      "React",
+      "Leaflet Maps",
+      "Node.js / Express",
+      "Tailwind CSS",
+    ],
+    role:
+      "Hardware sensor integration, IoT telemetry pipeline, real-time database architecture, and full-stack dashboard implementation",
+    live: "https://swatchhnet.vercel.app/",
+    github: "https://github.com/jananikuppan04/Swatchhnet",
+  },
+
+  {
+    id: "msquare",
+    number: "03",
+    title: "M Square Moto Parts",
+    image: "/images/projects/msquare.jpg",
+    category: "Freelance Client Build · E-Commerce & Retail · Full Stack",
+    status: "Shipped & Live",
+    accent: "green",
+    summary:
+      "A high-octane commercial e-commerce storefront engineered for Chengalpattu's premier motorcycle accessories and riding gear retailer, featuring instant WhatsApp order routing and dynamic product catalogs.",
+    problem:
+      "A local retail motorcycle shop needed to transition from offline walk-ins to a modern digital catalog with frictionless direct-to-chat order conversion without heavy checkout barriers.",
+    solution:
+      "A lightning-fast, mobile-first web storefront showcasing riding gear, LED lighting, helmets, and performance parts with direct WhatsApp 1-click ordering, real-time cart state, and local SEO.",
+    features: [
+      "High-conversion e-commerce catalog with search, filtering, and categories",
+      "Instant 1-click WhatsApp order routing with itemized cart checkout",
+      "Mobile-optimized responsive UI with dark automotive aesthetic",
+      "Customer reviews showcase (5.0 rating) and 24/7 store accessibility",
+      "Production cloud deployment on Vercel with high performance scores",
+    ],
+    stack: [
+      "React",
+      "Next.js / Vite",
+      "Tailwind CSS",
+      "WhatsApp Business API",
+      "E-Commerce",
+      "Vercel",
+    ],
+    role:
+      "Complete freelance delivery: UI/UX design, frontend architecture, catalog management, WhatsApp conversion engine, and deployment",
+    live: "https://m-square-moto-parts.vercel.app/",
+    github: "https://github.com/jananikuppan04/m-square-moto-parts",
   },
 
   {
     id: "clientpilot",
-    number: "02",
+    number: "04",
     title: "ClientPilot AI",
     image: "/images/projects/clientpilot.png",
     category: "AI SaaS · Full Stack · RAG",
@@ -108,7 +181,7 @@ export const projects = [
 
   {
     id: "agriconnect",
-    number: "03",
+    number: "05",
     title: "AgriConnect AI",
     image: "/images/projects/agriconnect.png",
     category: "Social Impact · AI/ML & Computer Vision · Full Stack",
@@ -133,7 +206,7 @@ export const projects = [
 
   {
     id: "taskflow",
-    number: "04",
+    number: "06",
     title: "Task Management System",
     image: "/images/projects/task-management.png",
     category: "Java · Spring Boot · REST API",
@@ -162,6 +235,11 @@ export const skillGroups = [
     name: "AI/ML, Vision & Applied Intelligence",
     level: "Core project experience",
     skills: ["Python", "Computer Vision", "OpenCV", "NLP", "RAG Systems", "LLM Applications", "Similarity Scoring"],
+  },
+  {
+    name: "IoT, Hardware & Embedded Systems",
+    level: "Hands-on implementation",
+    skills: ["IoT Architecture", "Ultrasonic Sensors", "Microcontroller Telemetry", "Hardware Sensor Interfacing", "Firebase Realtime DB"],
   },
   {
     name: "Frontend Development",

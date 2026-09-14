@@ -233,6 +233,8 @@
 .project-details li svg { flex: 0 0 auto; margin-top: 2px; color: #517a27; }
 .tech-list, .chip-list { display: flex; flex-wrap: wrap; gap: 8px; }
 .tech-list { margin-top: 26px; }
+.project-actions { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.project-action-btn { min-height: 42px; padding: 0 18px; font-size: 13px; font-weight: 750; gap: 8px; text-decoration: none; }
 
 .timeline { max-width: 850px; margin-left: auto; display: grid; grid-template-columns: 50px 1fr; }
 .timeline-node { z-index: 1; width: 38px; height: 38px; display: grid; place-items: center; color: #497621; border: 1px solid rgba(99, 146, 46, 0.35); border-radius: 10px; background: #eff6e4; }

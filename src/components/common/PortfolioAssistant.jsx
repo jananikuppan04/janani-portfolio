@@ -14,16 +14,22 @@ function answerQuestion(question) {
   if (text.includes("achievement") || text.includes("hackathon") || text.includes("win") || text.includes("award") || text.includes("sih")) {
     return "Janani is an SIH 2025 Winner (Smart India Hackathon), 2nd Place Winner at HackHustle National Hackathon, 3rd Place at SA Hackathon 2026, MIT Hackathon Finalist, Quantum Hackathon PPT Qualifier, and TNWISE State Qualifier!";
   }
-  if (text.includes("tenderlens") || text.includes("vision") || text.includes("project")) {
-    return "Janani’s featured projects include TenderLens AI (multimodal RFP tender intelligence & compliance platform), ClientPilot AI, AgriConnect AI (computer-vision leaf disease detection), and a Java Spring Boot Task System.";
+  if (text.includes("freelance") || text.includes("client") || text.includes("moto") || text.includes("m square") || text.includes("msquare")) {
+    return "Janani delivered M Square Moto Parts as a real-world freelance client project—a high-conversion e-commerce platform with 1-click WhatsApp order routing, product catalog search, and 5.0 Google review integration.";
+  }
+  if (text.includes("hardware") || text.includes("iot") || text.includes("sensor")) {
+    return "Janani possesses hands-on hardware and IoT expertise, integrating ultrasonic sensors, microcontroller nodes, and real-time Firebase telemetry into smart platforms like SwachhNet.";
+  }
+  if (text.includes("swachhnet") || text.includes("swatchhnet") || text.includes("tenderlens") || text.includes("vision") || text.includes("project")) {
+    return "Janani’s featured projects include TenderLens AI (multimodal RFP tender intelligence), SwachhNet (smart waste IoT hardware network), M Square Moto Parts (freelance client e-commerce platform), ClientPilot AI, AgriConnect AI, and a Java Task System.";
   }
   if (text.includes("skill") || text.includes("technology")) {
-    return "Janani specializes in Python, Computer Vision, OpenCV, RAG systems, LLMs, React, Node.js, Java, Spring Boot, and PostgreSQL.";
+    return "Janani specializes in Python, Computer Vision, OpenCV, IoT & Hardware Sensors, RAG systems, LLMs, React, Node.js, Java, Spring Boot, and PostgreSQL.";
   }
   if (text.includes("build") || text.includes("service")) {
-    return "Janani builds AI/ML and computer-vision prototypes, RAG assistants, responsive full-stack applications, and robust Java/Spring Boot backends.";
+    return "Janani builds AI/ML and computer-vision prototypes, IoT hardware sensor networks, RAG assistants, responsive full-stack applications, and robust backends.";
   }
-  return "Ask me about Janani’s skills, projects (like TenderLens AI), achievements (like SIH 2025), or availability.";
+  return "Ask me about Janani’s skills, projects (like TenderLens AI & SwachhNet), achievements (like SIH 2025), or availability.";
 }
 
 function PortfolioAssistant() {
